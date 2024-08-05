@@ -11,7 +11,7 @@ const TextInput = (({ label, name, placeholder, className, value, type, maxLengt
           <input
             type="text"
             placeholder={placeholder}
-            className="bg-[#F9FAFC] outline-none border-none w-full placeholder-italic text-black not-italic text-xs font-semibold"
+            className="bg-[#F9FAFC] border-none w-full placeholder-italic text-black not-italic text-xs font-semibold"
             name={name}
             autoComplete='off'
             value={value}
@@ -24,7 +24,7 @@ const TextInput = (({ label, name, placeholder, className, value, type, maxLengt
             <input
               type="text"
               placeholder={placeholder}
-              className="bg-[#F9FAFC] outline-none border-none w-full placeholder-italic text-black not-italic text-xs font-semibold"
+              className="bg-[#F9FAFC] border-none w-full placeholder-italic text-black not-italic text-xs font-semibold"
               name={name}
               autoComplete='off'
               value={value}

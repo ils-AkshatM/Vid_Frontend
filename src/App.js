@@ -1,8 +1,11 @@
 import React from 'react'
+import Routers from './routing/Routers'
 
 const App = () => {
   return (
-    <div className='text-3xl font-bold underline text-center'>App</div>
+    <div className='App'>
+      <Routers />
+    </div>
   )
 }
 

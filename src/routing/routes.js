@@ -1,8 +1,8 @@
 //auth
 
-export const LOGIN_ENDPOINT = "/account/login"
+export const LOGIN_ENDPOINT = "/login"
+export const REGISTER_ENDPOINT = "/signup"
 
 
 //dashboard
-
-export const HOME_ENDPOINT = "/home"
+export const HOME_ENDPOINT = "/"
